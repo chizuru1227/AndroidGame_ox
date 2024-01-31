@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="300sp"
+    android:padding="20sp"
+    android:background="@drawable/masu">
+
+    <ImageButton android:id="@+id/center"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_margin="20sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod"/>
+
+    <ImageButton android:id="@+id/top"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_above="@+id/center"
+        android:layout_alignLeft="@+id/center"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/bottom"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_below="@+id/center"
+        android:layout_alignLeft="@+id/center"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/left"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toLeftOf="@+id/center"
+        android:layout_alignTop="@+id/center"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/right"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toRightOf="@+id/center"
+        android:layout_alignTop="@+id/center"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/left_top"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toLeftOf="@+id/top"
+        android:layout_alignTop="@+id/top"
+        android:layout_alignLeft="@+id/left"
+        android:layout_alignRight="@+id/left"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/right_top"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toRightOf="@+id/top"
+        android:layout_alignTop="@+id/top"
+        android:layout_alignLeft="@+id/right"
+        android:layout_alignRight="@+id/right"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/left_bottom"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toLeftOf="@+id/bottom"
+        android:layout_alignTop="@+id/bottom"
+        android:layout_alignLeft="@+id/left"
+        android:layout_alignRight="@+id/left"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+    <ImageButton android:id="@+id/right_bottom"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_toRightOf="@+id/bottom"
+        android:layout_alignTop="@+id/bottom"
+        android:layout_alignLeft="@+id/right"
+        android:layout_alignRight="@+id/right"
+        android:background="@drawable/maru"
+        android:onClick="buttonMethod" />
+
+
+</RelativeLayout>
